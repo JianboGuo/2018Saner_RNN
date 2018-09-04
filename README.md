@@ -12,7 +12,7 @@ Each row should be in the form of: version_length t, metrics in v-t+1, label in 
 version_length t represent the number of versions that the file exists (t<=T).
 For those files with t < T, the columns should be filled with NaN in the tail of the row.
 
-See rnnmain_test.m and [our paper] (https://arxiv.org/abs/1712.09835) for more detailed information.
+See rnnmain_test.m and [our paper](https://arxiv.org/abs/1712.09835) for more detailed information.
 
 ### Usage
 Just run rnnmain_test.m in Matlab environment.
